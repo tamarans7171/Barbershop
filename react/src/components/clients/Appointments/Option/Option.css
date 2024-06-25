@@ -1,0 +1,118 @@
+
+  @import '../../../../../node_modules/react-datepicker/src/stylesheets/datepicker.scss';
+
+.react-datepicker__month-container {
+  background-color: #ac7b07;
+  color: rgba(243, 169, 206, 0.5);
+  font-size: 1rem;
+  font-family: 'Mulish';
+}
+.react-datepicker__month-container .react-datepicker__month {
+    padding: 1rem 0;
+  }
+
+  .react-datepicker__month-container .react-datepicker__month-text {
+    display: inline-block;
+    width: 5rem;
+    margin: 0.5rem;
+    font-size: 1rem;
+    padding: 0.2rem;
+  }
+
+    .react-datepicker__month-container .react-datepicker__month-text:hover {
+      background-color: #b61b8d;
+    }
+  
+
+  .e-input-group .e-input-group-icon:last-child, .e-input-group.e-control-wrapper .e-input-group-icon:last-child {
+    font-size: 12px;
+    background-color: yellow;
+}
+.form-select {
+  display: inline;
+  width: 80%;
+  left: 50%;
+  padding: .375rem 2.25rem .375rem .75rem;
+  -moz-padding-start: calc(0.75rem - 3px);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23343a40' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='m2 5 6 6 6-6'/%3e%3c/svg%3e");
+  background-repeat: no-repeat;
+  background-position: right .75rem center;
+  background-size: 16px 12px;
+  border: 1px solid #ced4da;
+  border-radius: .375rem;
+  transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none
+}
+
+@media (prefers-reduced-motion:reduce) {
+  .form-select {
+      transition: none
+  }
+}
+
+.form-select:focus {
+  border-color: #d0a91c;
+  outline: 0;
+  box-shadow: 0 0 0 .25rem rgba(77, 43, 2, 0.25)
+}
+
+.form-select[multiple],
+.form-select[size]:not([size="1"]) {
+  padding-right: .75rem;
+  background-image: none
+}
+
+.form-select:disabled {
+  background-color: #e9ecef
+}
+
+.form-select:-moz-focusring {
+  color: transparent;
+  text-shadow: 0 0 0 #212529
+}
+
+.form-select-sm {
+  padding-top: .25rem;
+  padding-bottom: .25rem;
+  padding-left: .5rem;
+  font-size: .875rem;
+  border-radius: .25rem
+}
+
+.form-select-lg {
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+  padding-left: 1rem;
+  font-size: 1.25rem;
+  border-radius: .5rem
+}
+.form-floating>.form-select {
+  height: calc(3.5rem + 2px);
+  line-height: 1.25
+}
+.mb-3 {
+  margin-bottom: 1rem !important
+}
+.datePickerC{
+  border-color: #d0a91c;
+width: 80%;
+text-align: center;
+margin-top: 4%;
+margin-bottom: 4%;
+}
+.return{
+  position: absolute;
+  left: 2%;
+  top: 22vh;
+  width: 40px;
+  background-color: #d0a91c;
+  border-radius: "44/2"
+
+}
